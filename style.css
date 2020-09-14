@@ -1,0 +1,67 @@
+body {
+	background: linear-gradient(
+						black,
+						#170B3B
+        );
+}
+
+
+p{
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+p{
+    margin: 1rem;
+}
+
+
+#parrafo{
+    float: left;
+    width: 55%;
+
+}
+
+.imagen{
+    float: right;
+    margin: 6rem 0 8rem 0;
+    padding: 0 0 10rem 0;
+}
+
+.imagen-c{
+    display: block;
+     margin-left: auto;
+     margin-right: auto;   
+    
+}
+
+h2 {            
+    text-align: center;
+    color: #ffc107;
+    margin: 2rem 0 0 0;
+}
+
+#cosmo{
+    margin: 0 0 0 1rem;
+    padding: 0 0 38rem 0;
+}
+
+#acerca{
+    display: block;
+}
+
+p{
+    padding: 1rem;
+}
+
+.imagen3 {
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+}
+
+footer {
+    margin-top: 1%;
+    background-color: gainsboro;
+    padding: 1%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Mitodologia Nordica</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	 <!-- Compiled and minified CSS -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.dropdown-trigger');
+			var instances = M.Dropdown.init(elems, {});
+		 });
+
+		  // Or with jQuery
+
+		 $('.dropdown-trigger').dropdown();
+	</script>
+	<meta name="viewport" content="width=device-width, user-scalable=no , initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+</head>
+<body>
+	<div class="contenedor">
+			<nav>
+				<div class="nav-wrapper black dark-#0A0A2A accent-2">
+					<ul id="nav-mobile">
+						<li><a href="navegacion.html#cosmologia" target="ventanaCambiante">Cosmología</a></li>
+						<li><a href="navegacion.html#historia" target="ventanaCambiante">Historia</a></li>
+						<li><a href="navegacion.html#alfabeto" target="ventanaCambiante">Alfabeto Runico</a></li>
+						<li><a href="navegacion.html#Ragnarök" target="ventanaCambiante">Ragnarök </a></li>
+						<li>
+					<!-- Dropdown Trigger -->
+							<a class="dropdown-trigger btn" href="#" data-target="dropdown1">Adicional</a>
+								<ul id="dropdown1" class="dropdown-content" tabindex="0">
+								<li tabindex="0"><a href="https://www.vikingos.org/los-nueve-mundos-de-la-mitologia-nordica/" target="ventanadinamica">Reinos Nordicos</a></li>
+								<li tabindex="0"><a href="https://www.lifeder.com/mitologia-nordica/" target="ventanadinamica">Personajes Nordicos</a>
+							</ul>
+					<!-- Dropdown Structure -->	
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</body>
+</html>

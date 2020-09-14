@@ -1,0 +1,11 @@
+p{
+    border: 1px;
+    display: inline-block;
+    width: auto;
+    margin: 0 3%;
+    text-align: justify;
+}
+
+body{
+    background-color: gray;
+}

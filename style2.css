@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+
+header{
+    width: 100%;
+    height: 40rem;
+}
+
+p{
+    margin: 1rem;
+}
+
+
+#parrafo{
+    float: left;
+    width: 30%;
+    height: 100%;
+
+}
+
+.imagen{
+    float: right;
+    padding: 0 1rem 1rem 1rem;
+    margin: 3rem 0 15rem 0;
+}
+
+#imagen-c{
+    display: block;
+     margin-left: auto;
+     margin-right: auto;   
+    
+}
+
+h2 {            
+    text-align: center;
+    color: #ffc107;
+}
+
+.imagen{
+    float: left;
+    padding: 1.2rem;
+
+}
+
+#acerca{
+    display: block;
+}
+
+p{
+    padding: 5rem;
+}
+
+.imagen3 {
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+}
+
+footer {
+    margin-top: 1%;
+    background-color: gainsboro;
+    padding: 1%;
+}
+
+p{
+    color: antiquewhite;
+}
+
+h2 {            
+    text-align: center;
+    color: #ffc107;
+}
+
+ul{
+    background-color: #15294C;
+}
+
+a:hover{
+    color:#1717FF;
+}
+
+nav{
+    background-color: #15294C;
+}
+
+li{
+    margin: 0 0 0 18%;
+}
+
+.contenedor{
+    margin: auto;
+
+}
+
+a{
+    font-size: 1.5%;
+}
